@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <version>45.0</version>  
+	<types>        
+        <members>SobjectDMLEvent__e</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>SobjectDMLEvent__e.Object_API_Name__c</members>
+        <members>SobjectDMLEvent__e.DML_Operation__c</members>
+		<members>SobjectDMLEvent__e.RecordJSON__c</members>
+        <name>CustomField</name>
+    </types>	
+        <types>        
+        <members>SobjectDMLEventTrigger</members>
+        <name>ApexTrigger</name>
+    </types>
+	<types>        
+        <members>SobjectDMLEventService</members>
+		<members>SobjectDMLEventService_Test</members>
+        <name>ApexClass</name>
+    </types>
+	
+    </Package>
